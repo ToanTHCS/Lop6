@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import '@/styles/style.css';
+import '@/styles/global.css';
 
 export default function Home() {
   useEffect(() => {
