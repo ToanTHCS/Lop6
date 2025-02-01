@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import '@/styles/global.css';
+import '../styles/global.css'; // ✅ Cách thông dụng
 
 export default function Home() {
   useEffect(() => {
